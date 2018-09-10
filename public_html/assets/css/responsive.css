@@ -1,0 +1,37 @@
+@media only screen and (min-width:600px){
+    #asideLeft{
+        width:30%;
+        float:left;
+    }
+    #view{
+        width:70%;
+        float:right;
+    }
+    #asideRight{
+        width:100%;
+    }
+    
+}	
+@media only screen and (min-width:900px){
+    #asideLeft, #view, #asideRight{
+        float:left;
+    }
+    #asideLeft{        
+        width:20%;        
+        margin-left:-75%;        
+    }    
+    #view{
+        width:55%;        
+        margin-left:20%;
+        
+    }
+    #asideRight{        
+       width:25%; 
+       margin:0;
+       padding:0;
+    }
+    #aside nav ul li a{
+        font-size:1rem;
+    }
+    
+}	
